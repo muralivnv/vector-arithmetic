@@ -5,4 +5,4 @@
 * Supports basic arithmetic **(+,-,\*,/)**.
 * Can be expandable, just define new overload.
 
-### Requirements: -std=c++14
+### Requirements: *-std=c++14
