@@ -10,7 +10,7 @@
 
 using namespace custom_type_traits;
 
-template<typename T, long unsigned int array_size>
+template<typename T, std::size_t array_size>
 auto create_container(std::array<T,array_size>& arr)
 {
     return std::array<T,array_size>();
